@@ -185,6 +185,7 @@ const Hero = () => {
           right: 30,
           cursor: 'pointer',
           transition: 'all 0.3s ease',
+          
           zIndex: 10,
           transform: 'scaleX(-1) translateY(-50%)',
           transformOrigin: 'center',

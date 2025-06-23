@@ -34,6 +34,7 @@ const Destinations = ({ destinations }) => {
               <div className="modal-body">
                 <div className="row">
                   {/* Summary Section */}
+                  
                   <div className="col-md-6">
                     <div className="card h-100">
                       <img src={destinations[selected].image} alt={destinations[selected].name} className="card-img-top" style={{ height: 250, objectFit: 'cover' }} />
